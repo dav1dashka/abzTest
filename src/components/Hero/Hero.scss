@@ -1,0 +1,57 @@
+.hero {
+    padding: 0 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../../img/pexels-alexandr-podvalny-1227513.jpeg') lightgray -1270.215px -412.112px / 342.315% 164.03%;
+
+    // @media (max-width: 767px) {
+    //     background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../../img/pexels-alexandr-podvalny-1227513.jpeg') lightgray -1270.215px -212.112px / 342.315% 164.03%;
+    // }
+
+    // @media (max-width: 530px) {
+    //     background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('../../img/pexels-alexandr-podvalny-1227513.jpeg') lightgray -870.215px -212.112px / 342.315% 164.03%;
+    // }
+
+    // .hero__smallcontainer
+
+    &__smallcontainer {
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 71px;
+
+        @media (min-width: 360px) {
+            padding-top: 89px;
+            padding-bottom: 88px;
+        }
+
+        @media (min-width: 768px) {
+            padding-top: 164px;
+            padding-bottom: 163px;
+        }
+    }
+
+    // .hero__title
+
+    &__title {
+        color: #FFF;
+        margin-bottom: 21px;
+    }
+
+    // .hero__text
+
+    &__text {
+        color: #FFF;
+        margin-bottom: 32px;
+
+    }
+
+    // .hero__link
+
+    &__link {}
+
+    // .hero__singup
+
+    &__singup {
+        margin: 0 auto;
+    }
+}
+
+.button {}

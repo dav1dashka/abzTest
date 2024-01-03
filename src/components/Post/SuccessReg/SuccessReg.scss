@@ -1,0 +1,17 @@
+.success {
+    margin: 100px 0px;
+    // .success__title
+
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    // .success__image
+
+    &__image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

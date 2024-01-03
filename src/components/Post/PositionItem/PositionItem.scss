@@ -1,0 +1,36 @@
+input[type="radio"] {
+    display: none;
+}
+
+.poistion-form__item {
+    line-height: 162.5%;
+}
+
+.poistion-form__item input[type="radio"]+label {
+    position: relative;
+
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.poistion-form__item input[type="radio"]+label:before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00BDD3;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.poistion-form__item input[type="radio"]:checked+label:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translate(50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: #00BDD3;
+    border-radius: 50%;
+}

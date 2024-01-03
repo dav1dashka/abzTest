@@ -1,0 +1,41 @@
+.get-block {
+    padding: 0 15px;
+
+    // .get-block__container
+
+    &__container {
+        padding-top: 140px;
+    }
+
+    // .get-block__title
+
+    &__title {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    // .get-block__cards
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+    }
+
+    // .get-block__show-more
+
+    &__show-more {
+        margin-top: 50px;
+    }
+
+    // .get-block__button
+
+    &__button.button {
+        margin: 0 auto;
+        width: 120px;
+    }
+}
+
+.button {}

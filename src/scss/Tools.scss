@@ -1,0 +1,47 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 34px;
+    border-radius: 80px;
+    background-color: $primaryColor;
+    transition: background-color 0.3s ease-out;
+  
+    &:hover {
+      background-color: #FFE302;
+      cursor: pointer;
+    }
+  
+    &.disabled {
+      background-color: #B4B4B4;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+  
+  [class*="__container"] {
+    max-width: 328px;
+    margin: 0 auto;
+  
+    @media (min-width: 360px) {
+      max-width: 704px;
+    }
+  
+    @media (min-width: 768px) {
+      max-width: 904px;
+    }
+  
+    @media (min-width: 1024px) {
+      max-width: 1170px;
+    }
+  }
+  
+  [class*="__smallcontainer"] {
+    max-width: 328px;
+    margin: 0 auto;
+  
+    @media (min-width: 360px) {
+      max-width: 380px;
+    }
+  }

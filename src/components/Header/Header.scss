@@ -1,0 +1,43 @@
+.header {
+    height: 60px;
+    padding: 0 15px;
+
+    // .header__container
+
+    &__container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        column-gap: 14px;
+        justify-content: space-between;
+    }
+
+    // .header__left
+
+    &__left {}
+
+    // .header__logo
+
+    &__logo {}
+
+    // .header__right
+
+    &__right {}
+
+    // .header__links
+
+    &__links {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    // .header__users
+
+    &__users {}
+
+    // .header__sing
+
+    &__sing {}
+}
+
+.button {}

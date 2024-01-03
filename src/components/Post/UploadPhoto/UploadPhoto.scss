@@ -1,0 +1,48 @@
+/* Hide the default file input */
+.input-file {
+    display: none;
+}
+
+.post-block__uploader {
+    margin-top: 50px;
+    overflow: hidden;
+
+    &.not-valid {
+        .post-block__label {
+            border-color: red;
+        }
+
+        .post-block__bottom-label {
+            color: red;
+        }
+    }
+}
+
+.post-block__label {
+    display: inline-block;
+    cursor: pointer;
+    line-height: 162.5%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+    &:first-of-type {
+        padding: 14px 15px;
+        border-radius: 4px 0px 0px 4px;
+        border: 1px solid rgba(0, 0, 0, 0.87);
+
+    }
+
+    &:last-of-type {
+        width: 295px;
+        color: #7E7E7E;
+        padding: 14px 16px;
+        border-radius: 0px 4px 4px 0px;
+        border: 1px solid #D0CFCF;
+        border-left: none;
+
+        &.active {
+            color: rgba(0, 0, 0, 0.87);
+        }
+    }
+}

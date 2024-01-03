@@ -9,14 +9,14 @@ const Header = () => {
       <header className="header">
         <div className="header__container">
           <div className="header__left">
-            <a className="header__logo">
-              <img href="/" src={logo} alt="Logo" />
-            </a>
+            <button className="header__logo" type="button">
+              <img src={logo} alt="Logo" />
+            </button>
           </div>
           <div className="header__right">
             <div className="header__links">
-              <a href="/" className="header__users button">Users</a>
-              <a href="/" className="header__sing button">Sing up</a>
+              <button type="button className="header__users button">Users</button>
+              <button type="button className="header__sing button">Sing up</button>
             </div>
           </div>
         </div>

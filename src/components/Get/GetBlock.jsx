@@ -4,7 +4,7 @@ import { useEffect, useState, useContext } from 'react';
 import { fetchData } from '../../js/fetchUsers.js';
 import { FormContext } from '../App/App.jsx';
 import Card from './Card/Card.jsx';
-import Skeleton from './skeleton/skeleton.jsx';
+import Skeleton from './Skeleton/Skeleton.jsx';
 import './GetBlock.scss';
 
 const GetBlock = () => {

@@ -66,7 +66,7 @@ const GetBlock = () => {
         </div>
         {page <= lastPage ?
           <div className="get-block__show-more">
-            <a onClick={() => setPage(prev => prev + 1)} className="get-block__button button">Show more</a>
+            <button onClick={() => setPage(prev => prev + 1)} className="get-block__button button" type="button">Show more</button>
           </div>
           : null}
       </div>
